@@ -1,40 +1,53 @@
-# 🚗 Electric Vehicle Insights – Washington State
+# 🚗 EV Insights WA – Data Analysis & Prediction App
 
-This Streamlit app analyzes and predicts Electric Vehicle (EV) types using public EV registration data from Washington State.
+This project explores Electric Vehicle (EV) adoption trends in Washington State using public registration data. It includes:
+- A Jupyter Notebook (`EV_Insights_Washington_Polished.ipynb`) for data analysis and model development
+- A Streamlit web app (`app.py`) to interactively predict EV types
 
-## 🔍 Features
+---
 
-- Interactive EV type predictor using Make, Model, and MSRP
-- Clean and responsive UI built with Streamlit
-- Filtered dataset [for live demo] for fast training (top 100 rows per Make & Model)
-- EV type distribution chart using Seaborn
-- Cached model to ensure fast predictions
+## 📊 Project Structure
+
+### 1. **EV_Insights_Washington_Polished.ipynb**
+A Jupyter Notebook containing:
+- Data cleaning & preprocessing
+- Exploratory Data Analysis (EDA)
+- Visualization of EV trends (electric range, MSRP, location)
+- Machine learning model (Random Forest) for predicting EV types
+- Business recommendations based on findings
+
+### 2. **Streamlit App (app.py)**
+An interactive web application to:
+- Select EV Make, Model, and Base MSRP
+- Predict the EV type (BEV or PHEV)
+- Visualize EV type distribution
+- Built with fast, cached modeling using a filtered dataset
+
+---
 
 ## 📁 Dataset
 
-- Source: [WA State EV Registration Data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
-- Columns used: `Make`, `Model`, `Base MSRP`, `Electric Vehicle Type`
+- Source: [Washington State EV Registration Data](https://catalog.data.gov/dataset/electric-vehicle-population-data)
+- Key Columns: `Make`, `Model`, `Base MSRP`, `Electric Vehicle Type`, `Electric Range`
 
-## 🚀 Run the App Locally
+---
 
-### 1. Clone the Repository
+## 💻 How to Run the Project
 
+### ▶️ Run the Notebook
 ```bash
-git clone https://github.com/Prudhvirajrekula/EV-Insights-WA-Streamlit-App.git
-cd EV-Insights-WA-Streamlit-App
+jupyter notebook EV_Insights_Washington_Polished.ipynb
 ```
 
-### 2. Install Dependencies
-
+### 🚀 Run the Streamlit App
 ```bash
 pip install -r requirements.txt
-```
-
-### 3. Run Streamlit App
-
-```bash
 streamlit run app.py
 ```
 
+---
+
 ## 🚀 Try the App (Live)
 👉 [Click here to try it live](https://ev-insights-washington-prudhviraj.streamlit.app/)
+
+---
