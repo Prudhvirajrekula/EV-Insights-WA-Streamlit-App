@@ -6,7 +6,7 @@ This Streamlit app analyzes and predicts Electric Vehicle (EV) types using publi
 
 - Interactive EV type predictor using Make, Model, and MSRP
 - Clean and responsive UI built with Streamlit
-- Filtered dataset[just for live demo] for fast training (top 100 rows per Make & Model)
+- Filtered dataset [for live demo] for fast training (top 100 rows per Make & Model)
 - EV type distribution chart using Seaborn
 - Cached model to ensure fast predictions
 
