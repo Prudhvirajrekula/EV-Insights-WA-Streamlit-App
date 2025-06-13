@@ -20,7 +20,7 @@ This Streamlit app analyzes and predicts Electric Vehicle (EV) types using publi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/EV-Insights-WA-Streamlit-App.git
+git clone https://github.com/Prudhvirajrekula/EV-Insights-WA-Streamlit-App.git
 cd EV-Insights-WA-Streamlit-App
 ```
 
