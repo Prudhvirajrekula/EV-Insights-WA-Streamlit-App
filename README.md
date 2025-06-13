@@ -38,12 +38,3 @@ streamlit run app.py
 
 ## 🚀 Try the App (Live)
 👉 [Click here to try it live](https://ev-insights-washington-prudhviraj.streamlit.app/)
-
-## 👨‍💻 Author
-
-Prudhvi Raj Rekula – MS in Computer Science  
-[LinkedIn](https://www.linkedin.com/in/prudhvirajrekula) | [GitHub](https://github.com/Prudhvirajrekula)
-
----
-
-**Built with ❤️ using Streamlit**
