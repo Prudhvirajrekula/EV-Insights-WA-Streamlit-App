@@ -36,9 +36,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📷 Screenshots
+## Live Demo
 
-![EV Predictor](assets/ev_app_demo.png)
+![EV Predictor](https://ev-insights-washington-prudhviraj.streamlit.app/)
 
 ## 👨‍💻 Author
 
